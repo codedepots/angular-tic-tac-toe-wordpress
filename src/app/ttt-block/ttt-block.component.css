@@ -1,0 +1,25 @@
+:host {
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border: 1px solid lightgrey;
+    margin: 0;
+    background: white;
+    cursor: pointer;
+}
+
+:host:hover {
+    background: rgb(247, 247, 247);
+}
+
+.content {
+    font-size: 72px;
+    line-height: 1.4;
+    font-weight: lighter;
+}
+
+.green {
+    background: lightgreen;
+}

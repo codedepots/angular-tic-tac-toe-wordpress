@@ -1,0 +1,33 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <!-- <h1 class="title">
+    Welcome to {{ title }}!
+  </h1> -->
+  
+  <!-- Set up 3x3 tic tac toe grid -->
+  <div class="ttt-container">
+    <app-ttt-block *ngFor="let block of blocks; let i=index"
+    (click)="clicked(i)"
+    [content]="blocks[i]"
+    [winningBlock]="winningBlock(i)">      
+    </app-ttt-block>
+  </div>
+
+  <div class="winner" *ngIf="the_winner === undefined && tie === false">
+    Player {{ current_player }}'s turn.
+  </div>
+
+  <div class="winner" *ngIf="the_winner === undefined && tie === true">
+    It's a draw! Try again.
+  </div>
+
+  <div class="winner" *ngIf="the_winner !== undefined">
+    Player {{ the_winner }} won using blocks {{ winning_blocks }}.
+  </div>
+
+
+  <div class="reset" (click)="reset()">
+    Reset
+  </div>
+
+  
