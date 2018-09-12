@@ -1,9 +1,11 @@
-# TicTacToe (Angular Project)
+# Angular - WordPress Project
 
 This is the Angular code used to generate a simple tic-tac-toe game. Its
-purpose was to show how a block of code written in Angular produces files through the build process that could be easily dropped into a WordPress project. 
+purpose is to show how a block of code written in Angular produces files through the build process that can be easily dropped into a WordPress project. 
 
-The associated article and example can be found at: [Enhancing WordPress By Dropping In Angular](https://theloanrobot.com/enhancing-wordpress-with-angular/).
+We used the same ideas to build a larger project for our website covering personal finance, student loans and mortgages. You can see here the working example of our [loan and mortgage calculator with a sample payoff strategy](https://theloanrobot.com/see-an-example-payoff-shared).
+
+## To get started with the example:
 
 1) To try things out, first make sure you've installed the Angular CLI. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1. 
 
